@@ -1,0 +1,27 @@
+
+
+
+ <h2>A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</h2>
+
+ <mat-card>
+
+
+
+   <mat-form-field>
+     <input  matInput type="text" [(ngModel)] = "enteredtitle" >
+
+   </mat-form-field>
+   <br><br>
+
+  <mat-form-field>
+
+<textarea cols="20" matInput  [(ngModel)]= "enteredcontent" ></textarea><br><br>
+</mat-form-field>
+<mat-card-footer>
+<button (click)="onAddPost()"  mat-raised-button color='accent' > save</button>
+</mat-card-footer>
+</mat-card>
+<app-post-list [items]="posts"></app-post-list>
+
+<!-- <h3> <i><ul>{{this.title}}</ul></i></h3>-->
+

@@ -1,0 +1,18 @@
+mat-card{
+  width:max-content;
+  margin:2px;
+  align-content: center;
+  margin-left: 111px;
+
+}
+mat-raised-button{
+  align-self:right;
+
+}
+mat-header{
+  align-content: left;
+}
+
+textarea{
+  width: auto;
+}
